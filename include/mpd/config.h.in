@@ -1,0 +1,17 @@
+
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define PACKAGE "@PACKAGE@"
+#define VERSION "@VERSION@"
+
+#cmakedefine DEFAULT_SOCKET "@DEFAULT_SOCKET@"
+#define DEFAULT_HOST "@DEFAULT_HOST@"
+#define DEFAULT_PORT @DEFAULT_PORT@
+
+#cmakedefine HAVE_STRNDUP
+
+#cmakedefine TCP_ENABLE
+#cmakedefine HAVE_GETADDRINFO
+
+#endif // CONFIG_H_IN_H
